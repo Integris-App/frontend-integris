@@ -47,7 +47,7 @@ const Problem = () => {
            Your existing software is making it difficult to scale your business.
         </h2>
         <p className="max-w-xl mx-auto text-lg opacity-90 leading-relaxed mb-12 md:mb-20">
-          Assets, policies, tennants, MDM, endpoint protection... there's a lot to manage across different systems. It's hard to keep track of everything.
+          Assets, policies, tennants, MDM, endpoint protection... there&apos;s a lot to manage across different systems. It&apos;s hard to keep track of everything.
         </p>
 
         <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-6">
