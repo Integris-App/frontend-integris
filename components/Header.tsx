@@ -6,9 +6,8 @@ import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import ButtonSignin from "./ButtonSignin";
-import logo from "@/app/icon.png";
+import logo from "../public/Integris.svg";
 import config from "@/config";
-
 const links: {
   href: string;
   label: string;
@@ -41,7 +40,7 @@ const Header = () => {
   }, [searchParams]);
 
   return (
-    <header className="bg-base-200">
+    <header className="">
       <nav
         className="container flex items-center justify-between px-8 py-4 mx-auto"
         aria-label="Global"
@@ -53,16 +52,14 @@ const Header = () => {
             href="/"
             title={`${config.appName} homepage`}
           >
-            <Image
+            {/* <Image
               src={logo}
               alt={`${config.appName} logo`}
-              className="w-8"
+              className=""
               placeholder="blur"
               priority={true}
-              width={32}
-              height={32}
-            />
-            <span className="font-extrabold text-lg">{config.appName}</span>
+            /> */}
+            <p className="gradient-text animate-gradient text-transparent text-xl font-extrabold tracking-tighter">{config.appName}</p>
           </Link>
         </div>
         {/* Burger button to open menu on mobile */}
@@ -105,7 +102,7 @@ const Header = () => {
         </div>
 
         {/* CTA on large screens */}
-        <div className="hidden lg:flex lg:justify-end lg:flex-1">{cta}</div>
+        {/* <div className="hidden lg:flex lg:justify-end lg:flex-1">{cta}</div> */}
       </nav>
 
       {/* Mobile menu, show/hide based on menu state. */}
@@ -120,7 +117,7 @@ const Header = () => {
               title={`${config.appName} homepage`}
               href="/"
             >
-              <Image
+              {/* <Image
                 src={logo}
                 alt={`${config.appName} logo`}
                 className="w-8"
@@ -128,7 +125,7 @@ const Header = () => {
                 priority={true}
                 width={32}
                 height={32}
-              />
+              /> */}
               <span className="font-extrabold text-lg">{config.appName}</span>
             </Link>
             <button
@@ -172,7 +169,7 @@ const Header = () => {
             </div>
             <div className="divider"></div>
             {/* Your CTA on small screens */}
-            <div className="flex flex-col">{cta}</div>
+            {/* <div className="flex flex-col">{cta}</div> */}
           </div>
         </div>
       </div>
