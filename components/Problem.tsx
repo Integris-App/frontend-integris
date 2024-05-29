@@ -44,7 +44,7 @@ const Problem = () => {
     <section className="bg-neutral text-neutral-content -mt-64">
       <div className="max-w-7xl mx-auto px-8 py-16 md:py-32 text-center">
         <h2 className="max-w-3xl mx-auto font-extrabold text-4xl md:text-5xl tracking-tight mb-6 md:mb-8">
-           Your existing software is making it difficult to scale your business.
+           Your software is making it difficult to scale your business.
         </h2>
         <p className="max-w-xl mx-auto text-lg opacity-90 leading-relaxed mb-12 md:mb-20">
           Assets, policies, tennants, MDM, endpoint protection... there&apos;s a lot to manage across different systems. It&apos;s hard to keep track of everything.
