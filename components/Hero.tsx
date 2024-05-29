@@ -8,7 +8,7 @@ import Wave from "../public/wave.png"
 
 const Hero = () => {
   return (
-    <section className="mx-auto max-w-full flex flex-col items-center justify-center gap-16 lg:gap-20 ">
+    <section className="mx-auto max-w-full min-h-screen flex flex-col items-center justify-start gap-16 lg:gap-20 ">
       {/* <a
           href="https://www.producthunt.com/posts/shipfast-2?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-shipfast&#0045;2"
           target="_blank"
@@ -31,13 +31,13 @@ const Hero = () => {
         The IT Management Ecosystem with everything you need to streamline your operations, integrate seamlessly, and succeed effortlessly.
       </p>
       {/* For the Hero & CTA use this 👇 */}
-      <ButtonLead extraStyle="-mb-32"/>
+      <ButtonLead extraStyle=""/>
 
       {/* <TestimonialsAvatars priority={true} /> */}
       <Image
         src={Wave}
         alt="3D Graphic"
-        className="w-full -z-10 -mt-64 -mb-64"
+        className="w-full scale-x-[1.5] md:scale-x-[1] bottom-[20vh] md:bottom-0 -z-10 absolute"
         priority={true}
         width={1920}
         height={1080}
