@@ -37,7 +37,7 @@ const Hero = () => {
       <Image
         src={Wave}
         alt="3D Graphic"
-        className="w-full scale-x-[1.5] md:scale-x-[1] bottom-[20vh] md:bottom-0 -z-10 absolute"
+        className="w-full scale-x-[1.5] md:scale-x-[1] bottom-[20vh] md:bottom-0 md:top-1 -z-10 absolute"
         priority={true}
         width={1920}
         height={1080}
